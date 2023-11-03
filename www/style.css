@@ -1,0 +1,245 @@
+
+body {
+    font-family: -apple-system, 'Segoe UI', Roboto,, 'Open Sans', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    padding: 21px;
+}
+
+h2 {
+    color: #2f3154;
+}
+
+h3 {
+    color: #363e5d;
+}
+
+footer {
+    padding: 21px;
+    color: white;
+    background-color: #445079;
+}
+
+p {
+    text-align: justify;
+}
+
+p.header {
+    text-align: left;
+}
+
+p.header {
+    text-align: left;
+    font-family: Philosopher, sans-serif;
+}
+
+
+p.alibaba {
+    text-align: center;
+    margin-top: -2%;
+    font-family: Philosopher, sans-serif;
+}
+
+nav a {
+    font-size: 19px;
+    font-weight: 410;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.featured-image {
+    width: 100%;
+    height: 201px;
+    text-align: center;
+    object-fit: cover;
+    object-position: center;
+}
+
+.search {
+    width: 100%;
+    height: 301px;
+    object-fit: cover;
+    object-position: center;
+    padding: 11px;
+    background: #fff;
+    border: 0px solid #fff;
+}
+
+.search:hover {
+    padding: 16px;
+    background: #ffffff;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: hand;
+}
+
+
+.profile img {
+    width: 201px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.alibaba {
+    font-size: 21px;
+    padding: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    margin-top: 5%;
+    margin-bottom: -1%;
+}
+
+.alibaba2 {
+
+    object-fit: cover;
+    object-position: center;
+}
+
+nav {
+    background-color: #40586c;
+    padding: 5px;
+    position: sticky;
+    position: fixed;
+    width: 100%;
+    height: 66px;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+#content {
+    flex: 3;
+    width: 75%;
+}
+
+aside {
+    width: 25%;
+    flex:1;
+    padding-left: 21px;
+}
+
+main {
+    padding: 21px;
+    overflow: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+header {
+    display: flex;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    text-align: left;
+    margin-left: 51px;
+}
+
+p.first-letter {
+    font-size: 71px;
+    font-weight: bold;
+    flex: 1;
+}
+
+span.drop-cap {
+    font-size: 300%;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    flex: 1;
+    margin-right: 10px;
+    padding: 2px 6px;
+    border: 3px double #777;
+    background: #ECE9D8;
+}
+
+.daftarmenu {
+    font-weight: bold;
+}
+
+th.data {
+    width: 201px;
+}
+
+th.footer {
+    width: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+td.footer {
+    color: white;
+    height: 31px;
+}
+
+td.footer:hover {
+    cursor: hand;
+}
+
+img.medsos {
+    width: 51px;
+}
+
+img.medsos:hover {
+    cursor: hand;
+}
+
+th.medsos:hover {
+    cursor: hand;
+}
+
+td.footer {
+    width: 301px;
+    color: white;
+}
+
+.privacy:hover{
+    cursor: hand;
+}
+
+.terms:hover{
+    cursor: hand;
+}
